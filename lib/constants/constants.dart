@@ -15,18 +15,3 @@ Color get grayDarkColor => const Color(0xff6F7789);
 /// Example: ${iconAsset}/logo.svg
 String iconAsset = "assets/icons";
 String imageAsset = "assets/images";
-
-/// ----------------
-/// Status Bar Color
-/// ----------------
-void setStatusBar({
-  Brightness brightness = Brightness.dark,
-  Color color = Colors.transparent,
-}) {
-  SystemChrome.setSystemUIOverlayStyle(
-    SystemUiOverlayStyle(
-      statusBarColor: color,
-      statusBarIconBrightness: brightness,
-    ),
-  );
-}
