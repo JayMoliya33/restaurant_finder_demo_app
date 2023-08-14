@@ -15,9 +15,9 @@ Flutter installed on your development machine.
 # How to install
 Run this command in your terminal:
 
-git clone https://github.com/JayMoliya33/restaurant_finder_demo_app.git
-cd restaurantapp
-flutter clean 
-flutter pub get
-flutter run
+- git clone https://github.com/JayMoliya33/restaurant_finder_demo_app.git
+- cd restaurantapp
+- flutter clean 
+- flutter pub get
+- flutter run
 
